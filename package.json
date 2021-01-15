@@ -1,16 +1,27 @@
 {
-  "name": "shopifyChallenge-summer2021",
+  "name": "shopifychallenge-summer2021",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "shopify summer 2021 intern challenge",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "XiaoshuaiGeng",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.0.0-beta1",
-    "express": "^4.17.1"
-  }
+    "express": "^4.17.1",
+    "handlebars": "^4.7.6",
+    "hbs": "^4.1.1",
+    "path": "^0.12.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XiaoshuaiGeng/shopifyChallenge-summer2021.git"
+  },
+  "bugs": {
+    "url": "https://github.com/XiaoshuaiGeng/shopifyChallenge-summer2021/issues"
+  },
+  "homepage": "https://github.com/XiaoshuaiGeng/shopifyChallenge-summer2021#readme"
 }
