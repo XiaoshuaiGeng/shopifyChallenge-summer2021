@@ -4,7 +4,7 @@
   "description": "shopify summer 2021 intern challenge",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/app.js"
   },
   "keywords": [],
   "author": "XiaoshuaiGeng",
