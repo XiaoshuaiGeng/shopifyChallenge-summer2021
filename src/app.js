@@ -53,6 +53,18 @@ app.post('/image', upload.single('uploaded_image'), (req, res) => {
     })
 })
 
+app.post("/delete", (req, res) => {
+    const id = req.query.id
+    Image.deleteOne({
+        _id: id
+    }).then((image) => {
+        console.log(image)
+        res.redirect('/')
+    }).catch((error) => {
+        res.status(500).send(error)
+    })
+})
+
 app.listen(port, () => {
     console.log(`Server started, listening on http://localhost:${port}`)
 })
