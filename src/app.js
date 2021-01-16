@@ -66,5 +66,5 @@ app.post("/delete", (req, res) => {
 })
 
 app.listen(port, () => {
-    console.log(`Server started, listening on http://localhost:${port}`)
+    console.log(`Server started, listening on ${port}`)
 })
