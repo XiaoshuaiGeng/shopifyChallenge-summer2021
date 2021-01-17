@@ -5,5 +5,6 @@ Bootstrap 5 + ExpressJs + NodeJs + MongoDB
 
 ## Functionalities implemented:
 
-### Add Image:
+### Add Image & Delete Image
 
+### DEMO site: [Image Gallery](http://ca.codetalker.cf/)
