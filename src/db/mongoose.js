@@ -1,6 +1,7 @@
 const mongoose = require('mongoose')
+const credentials = require('./credentials')
 
-mongoose.connect('mongodb+srv://root:g18668168837@cluster0.iwb1r.mongodb.net/gallery?retryWrites=true&w=majority', {
+mongoose.connect(credentials, {
     useNewUrlParser: true,
     useCreateIndex: true
 })

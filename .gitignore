@@ -1,3 +1,4 @@
 node_modules
 .idea
 .htaccess
+credentials.js
